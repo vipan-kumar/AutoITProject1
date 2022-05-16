@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-10T20:02:54 IST" name="Default suite" finished-at="2022-05-10T20:02:59 IST" duration-ms="4391">
+    <groups>
+    </groups>
+    <test started-at="2022-05-10T20:02:54 IST" name="Default test" finished-at="2022-05-10T20:02:59 IST" duration-ms="4391">
+      <class name="testCases.TC_001_WriteToNotepadTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_WriteToNotepadTest@2babf189]" started-at="2022-05-10T20:02:55 IST" name="setup" finished-at="2022-05-10T20:02:55 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="writeDataToNotepad(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_WriteToNotepadTest@2babf189]" started-at="2022-05-10T20:02:55 IST" name="writeDataToNotepad" data-provider="tc001_step1_dp" finished-at="2022-05-10T20:02:59 IST" duration-ms="3813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[***** Title: AUTO IT Demo *****]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[___________This is bodyline 1__________]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[___________This is bodyline 2__________]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[___________This is bodyline 3__________]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[***** THE END *****]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataToNotepad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_WriteToNotepadTest@2babf189]" started-at="2022-05-10T20:02:59 IST" name="tearDown" finished-at="2022-05-10T20:02:59 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_WriteToNotepadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

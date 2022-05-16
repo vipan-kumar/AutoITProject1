@@ -1,0 +1,6 @@
+testCases\BaseClass.class
+utils\JSONReader.class
+pageObjects\LandingPage.class
+testCases\TC_001_WriteToNotepadTest.class
+utils\AllureListener.class
+utils\ReadConfig.class

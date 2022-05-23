@@ -59,5 +59,9 @@ public class LandingPage {
 		filename="AutomationFile"+fileSuffix;
 		return filename;
 	}
+	
+	public void SonarTest() {
+		System.out.println("This should appear in sonar failure");
+	}
 
 }
